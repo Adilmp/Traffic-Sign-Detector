@@ -1,10 +1,26 @@
-# Traffic-Sign-Detector
-This project focuses on classifying images of traffic signs using convolutional neural network (CNN) and ResNet models trained on the German Traffic Sign Benchmark dataset. The dataset comprises over 50,000 images categorized into more than 40 classes of traffic signs.
+Traffic-Sign-Detector 🚦
+=========================
 
-The motivation behind the project lies in the importance of accurate traffic sign classification for road safety. Traditional methods often struggle with real-world variations, prompting the use of deep learning models like CNNs and ResNets to automatically learn and extract features from images.
+Enhance road safety with Traffic-Sign-Detector, a cutting-edge project that classifies traffic signs using advanced deep learning techniques. Leveraging Convolutional Neural Networks (CNNs) and ResNet models, this project is trained on the extensive German Traffic Sign Benchmark dataset, which includes over 50,000 images across 40+ traffic sign categories.
 
-The methodology involves preprocessing the images by resizing them to uniform dimensions and converting them into numerical representations. For the CNN model, a pre-trained sequential model was fine-tuned with additional layers, batch normalization, and dropout to improve accuracy to 97%. For the ResNet model, a pre-trained ResNet50 architecture was fine-tuned, leading to a testing accuracy of 99.26%.
+🚀 Highlights:
+==============
+High Accuracy: Achieved 97% accuracy with a fine-tuned CNN model and an impressive 99.26% with a fine-tuned ResNet50 model.
 
-Training was conducted on the Google Colab GPU runtime with a 75:25 testing to validation split, 20 epochs, a batch size of 32, and a learning rate of 0.001.
+Robust Performance: Overcome real-world variations in traffic sign images with deep learning models that learn and extract features automatically.
 
-The project aims to contribute to improving road safety by providing insights into the performance of CNN and ResNet models for traffic sign classification. The results demonstrate high accuracy and robustness, supporting the project's goal of enhancing traffic sign recognition systems to mitigate accidents caused by human error.
+State-of-the-Art Methodology: Utilized image preprocessing, batch normalization, and dropout techniques to optimize model performance.
+
+🛠 Methodology:
+================
+Data: Preprocessed and resized images from the German Traffic Sign Benchmark dataset.
+
+Training: Conducted on Google Colab GPU with a 75:25 testing-to-validation split, 20 epochs, batch size of 32, and learning rate of 0.001.
+
+🌟 Impact:
+======================
+This project not only demonstrates the power of CNN and ResNet in traffic sign classification but also aims to contribute to road safety improvements by minimizing human errors in traffic sign recognition.
+
+
+Explore how deep learning can drive safety on our roads and potentially save lives through better traffic sign detection.
+
